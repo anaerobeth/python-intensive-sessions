@@ -1,0 +1,67 @@
+Part A. 
+
+1. Sign up for a Github account. 
+
+2. Install Jupyter notebook and launch it. Create a new folder called 'Python Intensive - Week 1'. Save your solutions to the following exercises in separate python notebooks (ex. part-b-solutions.ipynb, etc.) 
+
+
+Part B. Chapter 1 The way of the program 
+
+1. Print 'Hello world"
+
+2. Print the types of the ff:
+a. 2 
+b. 42.0 
+c. 'Data Science'
+d. True
+e. None
+
+3. What are the two types of syntax rules?
+
+4. Use Python to solve this: If you run a 10 kilometer race in 42 minutes 42 seconds, what is your average pace (time per mile in minutes and seconds)? What is your average speed in miles per hour?
+
+
+Part C. Chapter 2 Variables, expressions and statements
+
+1. How is running Python in script mode different from interactive mode?
+
+2. Save the string 'spam' as a variable and print it 3 times without spaces in between. Also print the result as 'SPAMSPAMSPAM', 'SpamSpamSpam' and 'spam spam spam')
+
+3. Apply your knowledge of variables and operations to answer this: Suppose the cover price of a book is $24.95, but bookstores get a 40% discount. Shipping costs $3 for the first copy and 75 cents for each additional copy. What is the total wholesale cost for 60 copies? 
+
+Part D. Chapter 3 Functions
+
+1. Why will each of the ff. code return an error?
+a. int('Hello') 
+b. hours * 60 = 15 
+c. float('apple')
+d. math.sqrt(2) / 2.0
+
+2. What is the difference between local and global variables?
+
+3. Why is debugging code like detective work?
+
+4. Create functions to print the lyrics of the song 'With or without you' (http://www.metrolyric...­)
+
+
+Part E. Chapter 5 Conditionals and recursion
+
+1. Which of the ff. will return True?
+a. 5 == 6
+b. 6%2 >= 0
+c. 12%2 == 0 or 12%3 == 0
+d. 42 and False
+e. 105 // 60 == 1
+
+2. Why is it generally okay to use chained conditionals but nested conditionals are to be avoided if possible?
+
+3. Write a recursive program to print the ff:
+*****
+****
+***
+**
+*
+Blastoff!
+
+4. Solve Exercise 1. (Homework: Solve Exercise 2)
+Small update to the event: conference room is moved from 3rd floor Credenza TO --> 7th Floor "Wingback"
