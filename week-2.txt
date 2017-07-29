@@ -1,0 +1,78 @@
+Please review the materials from Week 1 and publish your solutions on your Github page.
+
+Quiz: 
+Print the sum of the digits in the integer 13950. Find its largest digit.
+
+Part E. Chapter 5 Conditionals and recursion
+
+1. Which of the ff. will return True?
+a. 5 == 6
+b. 6%2 >= 0
+c. 12%2 == 0 or 12%3 == 0
+d. 42 and False
+e. 105 // 60 == 1
+
+2. Why is it generally okay to use chained conditionals but nested conditionals are to be avoided if possible?
+
+3. Write a recursive program to print the ff:
+*****
+****
+***
+**
+*
+Blastoff!
+
+4. Optional: Solve Chapter 5 Exercise 1. (Homework: Solve Exercise 2)
+
+
+Part F. Chapter 6 Fruitful functions
+
+1. What is special about the Python keyword 'return'?
+
+2. Write a function absolute_value() that correctly handles the ff. inputs: 1, 5, -10, 0, 4.2, 'bananas'.
+
+3. Why is preferable to practice scaffolding and incremental development over working on big chunks of code?
+
+4. Write a function is_between(x, y, z) that returns True if x ≤ y ≤ z or False otherwise. 
+
+
+5. Write a function factorial() that computes the factorial of positive integers. (Challenge problem: Write another function is_digit_factorial() that checks if a number is equal to the sum of the factorial of their digits. For example: 145 is a digit factorial because 1! + 4! + 5! = 1 + 24 + 120 = 145. )
+
+
+
+Part G. Chapter 7 Iteration
+
+1. Which of the ff. code will return an error? How would you fix it?
+a. x = x + 1 
+b. 5 ** 24
+c. y -= y
+d. z *= z
+
+2. Write a function liftoff() that uses a while loop to print the ff:
+*
+**
+***
+****
+*****
+Liftoff!
+
+3. Homework: Solve Chapter 7 Exercise 1.
+
+
+Part H. Chapter 8 Strings
+
+1. Given: fruit = 'banana', print the ff.:
+a. 'ban'
+b. 'anana'
+c. 'ananab'
+d. 'banban'
+e. 'bbabanbanabananbanana'
+f. 'b4n4n4'
+g. 'Banana'
+h. 'banana danana panana tanana'
+i. 'bnn'
+j. ['b', 'a', 'n', 'a', 'n', 'a']
+k. 'BANANAS' 
+j. b=1 a=3 n=2
+
+2. Write a function named count() based on the loop in Ex. 8.7 and generalize it so that it can accept any word and any letter. (Challenge problem: Count the number of i's in "Mississippi".)
