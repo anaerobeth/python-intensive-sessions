@@ -1,0 +1,73 @@
+Please review the materials from Week 2 and publish your solutions on your Github page. Consider adding short comments explaining your approaches to solving more difficult tasks as needed.
+
+Quiz: 
+Download the list of words in http://thinkpython2.c...­ and save the file as 'words.txt' in the same folder as your jupyter notebook. Open the file and read each word using the loop at the end of Chapter 9.1. Print all the words that are longer than 20 letters. How many words start or end with the letter 'x'?
+
+Part J. Chapter 10 Lists
+1. Given letters = ['a', 'b', 'c'] and numbers = [10, 20], find the length of:
+a. letters
+b. ['spam', 2.0, 5, numbers]
+c. []
+d. ['spam', 1, letters, [1, 2, 3]]
+e. range(len(letters))
+f. letters + numbers
+g. letters[:2]
+
+2. What are the uses of the Python methods map, reduce, filter, pop and alias?
+
+3. Given lows = [4, 2] and highs = [10, 9], manipulate the lists to print the ff:
+a. 6
+b. 11
+c. 25
+d. [20, 18]
+e. [10, 9, 4, 2]
+f. [2, 4, 9, 10]
+g. '24910'
+
+
+Part K. Chapter 11 Dictionaries
+
+1. Given the dictionary eng2sp = {'one': 'uno', 'two': 'dos', 'three': 'tres'}, which of the ff. will return True?
+a. eng2sp['one'] == 'uno'
+b. len(eng2sp) == 3
+c. 'one' in eng2sp
+d. 'uno' in eng2sp
+e. 'uno' in eng2sp.values()
+f. sorted(eng2sp) == ['one', 'three', 'two']
+
+2. Copy the implementation of the histogram method in 11.2 then paste the ff. code into your jupyter file and run it. 
+
+%matplotlib inline
+import matplotlib.pyplot as plt
+
+data = histogram('supercalifragilisticexpialido­cious')
+
+plt.bar(range(len(data)), data.values(), align='center')
+plt.xticks(range(len(data)), list(data.keys()))
+
+plt.show()
+
+Explain what the code is doing and describe your results.
+Consult relevant documentation in https://matplotlib.or...­ as needed.
+
+Part L. Chapter 13 Case study: data structure selection
+
+1. In your terminal, type `python` then type `import this` in the python interpreter. Copy the resulting text and save it in a file called zen.txt.
+
+2. In your jupyter notebook, write a program to read zen.txt, break each line into words, convert them to lowercase and remove all the punctuations. Save the resulting words in a list named 'all_words'. Combine all the words into a long string named 'text' and print that.
+
+3. In your terminal, type `pip install wordcloud` to install the wordcloud package.
+
+4. Paste the following code in your jupyter notebook:
+
+from wordcloud import WordCloud
+
+wordcloud = WordCloud().generate(text)
+
+import matplotlib.pyplot as plt
+plt.imshow(wordcloud, interpolation='bilinear')
+plt.axis("off")
+plt.show()
+
+Explain what the code is doing and describe your results.
+Consult relevant documentation in https://github.com/am...­ as needed.
