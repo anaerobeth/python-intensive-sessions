@@ -1,0 +1,24 @@
+Setup: In the final session, you will apply the Python skills you've acquired in the past three weeks to solve practical problems. Sign up for a Dataquest free account then navigate to the Python Programming: Beginner Course http://www.dataquest.io/course/python-programming-beginner
+
+
+Part M. Debugging Errors
+
+Learn about the most common types of errors and how to fix them in https://www.dataquest.io/m/28/debugging-errors .
+
+
+Part N. Guided Project
+
+Work on "Guided Project: Explore US Births dataset" https://www.dataquest.io/m/9/guided-project-explore-u-s-births. If you get stuck, check out the solution at
+https://github.com/dataquestio/solutions/blob/master/Mission9Solutions.ipynb
+
+
+Part O. Data visualization
+
+Learn how to communicate insights and tell stories using data visualization. Work on this exercise on improving how your matplotlib plots look.
+https://www.dataquest.io/m/147/improving-plot-aesthetics/9/next-steps
+
+Recommended Reading:
+https://www.python.org/dev/peps/pep-0008/
+https://google.github.io/styleguide/pyguide.html
+http://python-guide-pt-br.readthedocs.io/en/latest/writing/style/#read-from-a-file
+
